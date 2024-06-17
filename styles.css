@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+    
+}
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: transform 300ms ease-out;
+}
+nav a:hover{
+    transform: translate(0px, 0px) scale(1.1, 1.1);
+
+}
+main, .hTitle{
+    margin-top: 1em;
+    margin-left: 2em;
+}
+footer{
+    margin-top: 3em;
+}
