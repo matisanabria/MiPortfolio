@@ -1,32 +1,42 @@
-body{
-    margin: 0;
+body {
+  margin: 0 auto;
+  background-color: #1f2937;
+  color: white;
+  width: 70%;
+  overflow-x: hidden;
+  font-family: "Poppins";
+  font-weight: 300;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-    margin: 0 auto;
-    list-style: none;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    font-weight: bold;
-    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  list-style: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: bold;
 }
-nav a{
-    font-size: 18px;
-    text-decoration: none;
-    color: black;
-    transition: transform 300ms ease-out;
+nav a {
+  font-size: 18px;
+  text-decoration: none;
+  transition: transform 300ms ease-out;
+  color: #3fcf9f;
 }
-nav a:hover{
-    transform: translate(0px, 0px) scale(1.1, 1.1);
-
+nav a:hover {
+  transform: translate(0px, 0px) scale(1.1, 1.1);
 }
-main, .hTitle{
-    margin-top: 1em;
-    margin-left: 2em;
+main {
+  margin: 1em 2em 1em 2em;
 }
-footer{
-    margin-top: 3em;
+footer {
+  margin-top: 3em;
+}
+.hTitle {
+  width: 100%;
+  text-align: center;
+}
+.link {
+  color: #3fcf9f;
 }
